@@ -23,15 +23,6 @@ public class Challenge4BallsOops extends PApplet {
         PApplet.main("Challenge4BallsOops", args);
 
 
-
-
-
-//        myChallengeBalls.add(firstBall);
-//        myChallengeBalls.add(secondBall);
-//        myChallengeBalls.add(thirdBall);
-//        myChallengeBalls.add(fourthBall);
-
-
     }
 
     @Override
@@ -40,7 +31,6 @@ public class Challenge4BallsOops extends PApplet {
 
         size(640, 480);
     }
-
 
 
     @Override
@@ -55,13 +45,5 @@ public class Challenge4BallsOops extends PApplet {
         thirdBall.update();
         ellipse((int)fourthBall.x, (int)fourthBall.y, fourthBall.width,fourthBall.height);
         fourthBall.update();
-
-
-
-
-
-
-
-
-    }
+   }
 }
